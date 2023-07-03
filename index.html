@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+
+  <title>Explorer sem limites</title>
+</head>
+<body>
+  <main>
+    <div id="page">
+      <header>
+        <img src="./assets/astronaut.svg" 
+        alt="desenho de um estronauta flutuando no espaço"
+        id="show">
+        <img src="./assets/astronautBig.svg" 
+          alt="desenho de um astronauta flutuando no espaço" 
+          id="hide">
+        <div id="container">
+          <h1>Explore sem limites</h1>
+          <p>Porque o aprendizado é contínuo</p>
+          <img id="img-arrow" src="./assets/arrow.svg" alt="imagem de uma seta apontada para baixo">
+        </div>
+      </header>
+
+      <div class="moons">
+        <div class="orange-moon">
+          <img src="./assets/icons-big/orangeBig.svg" 
+          alt="imagem de uma lua de cor larajna"
+          class="hide">
+          <img src="./assets/orange-monn.svg" 
+            alt="imagem de uma lua de cor larajna"
+            class="show">
+          <h2>Não pare nunca </h2>
+          <p>
+            Se você deseja ter sucesso nos estudos, 
+            é fundamental que você adote uma mentalidade 
+            de "não pare nunca". Estudar de forma consistente 
+            e contínua é a chave para o progresso e a 
+            conquista de seus objetivos.
+          </p>
+        </div>
+
+        <div class="blue-moon">
+          <img src="./assets/blue-moon.svg" 
+            alt="imagem de uma lua de cor azul"
+            class="show">
+            <img src="./assets/icons-big/blueBig.svg" 
+            alt="imagem de uma lua de cor azul"
+            class="hide">
+          <h2>Só volta</h2>
+          <p>
+            Se você parou ou perdeu o 
+            ritmo em alguma atividade ou projeto,
+            saiba que nunca é tarde para recomeçar.
+            Às vezes, as circunstâncias podem mudar,
+            ou podemos nos sentir desmotivados
+            ou sobrecarregados.
+          </p>
+        </div>
+
+        <div class="pink-moon">
+          <img src="./assets/pink-moon.svg" 
+            alt="imagem de uma lua de cor rosa"
+            class="show">
+            <img src="./assets/icons-big/pinkBig.svg" 
+            alt="imagem de uma lua de cor rosa"
+            class="hide">
+          <h2>Siga seu ritmo</h2>
+          <p>
+            Avançar pouco a pouco mantém progresso
+            constante em objetivos, evitando parar ou
+            desistir. Mesmo pequenos passos nos 
+            aproximam do destino e motivam a continuidade.
+            Não subestime o poder de cada ação 
+            rumo ao objetivo final.
+          </p>
+        </div>
+      </div>
+      <div id="form">
+        <form id="my-form">
+          <legend>Entre em contato</legend>
+          <fieldset>
+            <div class="input-wrapper">
+              <label for="event-name"></label>
+              <input 
+                type="text" 
+                placeholder="Seu nome">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="event-email"></label>
+              <input 
+                type="email"
+                placeholder="E-mail">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="event-info"></label>
+                <textarea 
+                  id="event-info" 
+                  placeholder="Digite sua mensagem aqui"></textarea>
+            </div>
+          </fieldset>
+          <button
+            class="button"
+            form="my-form">
+            Enviar Mensagem
+          </button>
+        </form>
+        
+        <img src="./assets/points.svg" 
+          alt="imagem com varios pontos na cor rosa na tela" 
+          id="hide">
+      </div>
+      <footer>
+        <a href="https://www.rocketseat.com.br/">© 2023 - Rocketseat Explorer</a>
+      </footer>
+    </div>
+
+  </main>
+
+  
+</body>
+</html>
